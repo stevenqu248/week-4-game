@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Steven Universe RPG</title>
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- jQuery CDN -->
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>
+	<header class="text-center headerStyles"><h1>Steven Universe RPG!</h1></header>
+	<section class="container">
+		<div id="character-select" class="row">
+			<h3>Character Select:</h3>
+		
+			<div id="steven" class="container col-md-2 characterStats">
+				<img class="characterImages" src="assets/images/steven.png" alt="Steven Universe">
+				<p id="steven-data"></p>
+			</div>
+
+			<div id="pearl" class="container col-md-2 characterStats">
+				<img class="characterImages" src="assets/images/pearl.png" alt="Pearl">
+				<p id="pearl-data"></p>
+			</div>
+
+			<div id="amethyst" class="container col-md-2 characterStats">
+				<img class="characterImages" src="assets/images/amethyst.png" alt="Amethyst">
+				<p id="amethyst-data"></p>
+			</div>
+
+			<div id="garnet" class="container col-md-2 characterStats">
+				<img class="characterImages" src="assets/images/garnet.png" alt="Garnet">
+				<p id="garnet-data"></p>
+			</div>
+		</div>
+		
+		<div class="row" id="enemy-fighters">
+			<h3>Enemies:</h3>
+			<div id="steven-enemy" class="container col-md-2 characterStats">
+				<img class="characterImages" src="assets/images/steven.png" alt="Steven Universe">
+				<p id="steven-enemy-data"></p>
+			</div>
+			<div id="pearl-enemy" class="container col-md-2 characterStats">
+				<img class="characterImages" src="assets/images/pearl.png" alt="Pearl">
+				<p id="pearl-enemy-data"></p>
+			</div>
+			<div id="amethyst-enemy" class="container col-md-2 characterStats">
+				<img class="characterImages" src="assets/images/amethyst.png" alt="Amethyst">
+				<p id="amethyst-enemy-data"></p>
+			</div>
+			<div id="garnet-enemy" class="container col-md-2 characterStats">
+				<img class="characterImages" src="assets/images/garnet.png" alt="Garnet">
+				<p id="garnet-enemy-data"></p>
+			</div>
+		</div>
+		
+		<div class="row" id="arena">
+			<h3>Arena:</h3>
+		</div>
+		
+		<button id="attack-btn" onclick="parseAttack();">Attack</button>
+		<button id="reset-btn" onclick="resetGame();">Restart</button>
+	</section>
+
+</body>
+</html>

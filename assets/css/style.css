@@ -1,0 +1,27 @@
+body
+{
+	background-image: url("../images/background.jpg");
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+
+.characterImages
+{
+	width: 105px;
+	height: 150px;
+}
+
+.characterStats
+{
+	background-color: #4aaaa5;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 120px;
+}
+
+.arenaEnemy
+{
+	background-color: #4acfa5;
+	width: 120px;
+}
